@@ -22,25 +22,25 @@
         android:layout_centerHorizontal="true" />
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="95dp"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
         android:id="@+id/sp"
-        android:src="@drawable/images"
-        android:layout_alignParentBottom="true"
+        android:src="@drawable/mic"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_alignTop="@+id/ls"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginLeft="32dp"
-        android:layout_marginStart="32dp" />
+        android:layout_alignParentStart="true" />
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
         android:id="@+id/ls"
-        android:src="@drawable/volume"
-        android:layout_marginRight="18dp"
-        android:layout_marginEnd="18dp"
-        android:layout_alignTop="@+id/sp"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:src="@drawable/vol"
+        android:layout_marginTop="99dp"
+        android:layout_below="@+id/tv"
+        android:layout_toRightOf="@+id/tv"
+        android:layout_toEndOf="@+id/tv"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp" />
 </RelativeLayout>
